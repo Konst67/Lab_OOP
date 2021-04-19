@@ -1,0 +1,4 @@
+﻿  OpLab2.cpp
+C:\Users\Vladelec\source\repos\OpLab2\OpLab2\OpLab2.cpp(11,9): warning C4477: "printf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "1" имеет тип "STRING"
+C:\Users\Vladelec\source\repos\OpLab2\OpLab2\OpLab2.cpp(13,9): warning C4477: "printf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "1" имеет тип "STRING"
+  OpLab2.vcxproj -> C:\Users\Vladelec\source\repos\OpLab2\Debug\OpLab2.exe
