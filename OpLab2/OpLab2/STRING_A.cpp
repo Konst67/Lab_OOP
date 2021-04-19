@@ -30,7 +30,7 @@ STRING::STRING(const char* inputStr)
 		size = 0;
 }
 
-STRING::STRING(const STRING& other) //Конструктор копирования
+STRING::STRING(const STRING& other)
 	:size(other.size)
 {
 	str = new char[size];
@@ -38,13 +38,13 @@ STRING::STRING(const STRING& other) //Конструктор копирован�
 		str[i] = other.str[i];
 }
 
-STRING::~STRING() // Деструктор
+STRING::~STRING()
 {
 	str = nullptr;
 	free(str);
 }
 
-char& STRING::SetGet(int index) //Получение индекса
+char& STRING::SetGet(int index)
 {
 	if (index < 0)
 		return str[0];
@@ -52,8 +52,8 @@ char& STRING::SetGet(int index) //Получение индекса
 		return str[size - 1];
 	return str[index];
 }
- 
-void STRING::Set(const char* inputStr) // Получение строки 
+
+void STRING::Set(const char* inputStr)
 {
 	int i;
 	free(str);
